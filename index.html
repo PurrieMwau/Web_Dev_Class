@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>My First Web Page</title>
+        </head>
+        <body>
+           <h1>Introduction to HTML</h1> 
+           <p>I am so excited I've just created my very first Web Page! This is amaizing!!</p>
+           <h2>Lists</h2>
+           <h3>Ordered Lists</h3>
+           <ol type= "i">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+           </ol>
+           <h3>Unordered List</h3>
+           <ul> 
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+           </ul>
+           <h3>Embedded Image</h3>
+              <img src="YINnYANG.jpg" alt="Image of Yin and Yang" width="300" height="300"/>
+              <img src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-simon73-1323550.jpg&fm=jpg" alt="Movie Poster" width="300" height="300"/>
+            <h2>Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Susan</td>
+                        <td>Female</td>
+                        <td>Ethiopia</td>
+                    </tr>
+                    <tr>
+                        <td>Nikkoh</td>
+                        <td>Male</td>
+                        <td>South Africa</td>
+                    </tr>
+                    <tr>
+                        <td>Purity</td>
+                        <td>Female</td>
+                        <td>Kenya</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Embedding Videos and Audio</h2>
+            <video width="300" height="300" controls>
+                <source src="https://videos.pexels.com/video-files/4523981/4523981-uhd_1440_2560_30fps.mp4" type="video mp4">
+                Your browser does not support the videos. 
+            </video>
+            <audio>
+                <source src="" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+            <h2>Forms</h2>
+            <form action="Location" method="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here">
+                <br /><br />
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email here">
+                <br /><br />
+
+                <label for="Age">Age:</label>
+                <input type="number" name="age" max="50" min="20" id="age" placeholder="Enter your age here">
+                <br /><br />
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+                <br /><br />
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <br /><br />
+
+                <label for="cv">Upload CV:</label>
+                <input type="file" name="cv" id="cv">
+                <br /><br />
+
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write your bio here........"></textarea>
+                <br /><br />
+
+                <input type="submit" value="Submit">
+            </form>
+           
+        </body>
+
+    </html>
