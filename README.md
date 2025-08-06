@@ -29,5 +29,8 @@ This project is a simple HTML web page demonstrating basic HTML elements such as
 - Any modern web browser.
 
 ### Author
+Created as part of a web development learning excercise.
+
+
 
 Created as part of a
